@@ -6,7 +6,7 @@ const payrollRoutes = require('./backend/routes/routes.js');
 const authRoutes = require('./backend/routes/auth.routes.js');
 const leaveRoutes = require('./backend/routes/leaveRoutes.js');
 const employeeRoutes = require('./backend/routes/employeeRoutes.js');
-const notificationRoutes = require('./backend/routes/notifications.routes');
+const notificationRoutes = require('./backend/routes/notifications.js');
 
 const app = express();
 const port = 4002;
